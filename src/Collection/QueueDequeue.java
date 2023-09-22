@@ -21,3 +21,4 @@ public class QueueDequeue {
         System.out.println("After poll " + poll + " " + queue);
     }
 }
+// I install new OC "Windows 11" and commit this changes
