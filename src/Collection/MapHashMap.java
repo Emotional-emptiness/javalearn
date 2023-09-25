@@ -29,7 +29,9 @@ public class MapHashMap {
         capitals.put("Germany", "Berlin");
         capitals.put("Ukraine", "Kyiv");
         capitals.put("Spain", "Madrid");
-
+        capitals.put(null, "null");
+        capitals.put(null, "null");
+        System.out.println("capitals null = " + capitals);
         // получение по key
         System.out.println("capitals.get(\"Germany\") = " + capitals.get("Germany"));
         System.out.println("capitals = " + capitals);
