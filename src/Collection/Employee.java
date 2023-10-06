@@ -2,7 +2,7 @@ package Collection;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
     private final int id;
     private final String name;
 
@@ -42,5 +42,15 @@ public class Employee {
         Employee employee = (Employee) obj;
 
         return this.id == employee.id && Objects.equals(this.name, employee.name);
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        if (this.id < o.id) {
+            return -1;
+        } else if (this.id > o.id) {
+            return 1;
+        }
+        return 0;
     }
 }

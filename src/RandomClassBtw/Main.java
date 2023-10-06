@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package RandomClassBtw;
 
 public class Main {
     public void printPrices(float[] prices){

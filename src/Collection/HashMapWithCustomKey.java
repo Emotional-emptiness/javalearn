@@ -28,6 +28,9 @@ public class HashMapWithCustomKey {
         // все элементы вернуться по порядку, а не в разброс как HashMap<>()
         linkedMap.put("Some0", "SomeValue0");
         linkedMap.put("Some1", "SomeValue1");
+        linkedMap.put("Some5", "SomeValue5");
+        linkedMap.put("Some2", "SomeValue2");
+        System.out.println(linkedMap);
 
     }
 }

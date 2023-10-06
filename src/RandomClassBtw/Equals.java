@@ -1,3 +1,5 @@
+package RandomClassBtw;
+
 public class Equals {
     public static void main(String[] args) {
         String a2 = "10";

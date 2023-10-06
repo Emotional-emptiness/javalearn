@@ -1,3 +1,5 @@
+package RandomClassBtw;
+
 import java.util.Arrays;
 
 public class BubbleArr {
