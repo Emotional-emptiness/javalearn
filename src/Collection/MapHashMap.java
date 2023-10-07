@@ -12,6 +12,8 @@ public class MapHashMap {
          // добавление элемента в map
          map.put("zxc@gmail.com", "some info0");
          map.put("qwe@gami.com", "some info1");
+         map.put("qwe@gami.com", "some info1");
+         map.put("qwe@gami.com", "some info1"); // одинаковые элементы не дублируются!!!
         System.out.println(map);
         System.out.println("map.hashCode() = " + map.hashCode());
         System.out.println("map.keySet() = " + map.keySet());
